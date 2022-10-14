@@ -39,6 +39,9 @@ namespace ConsoleApp3
                     result = x1 * y1;
                     Console.WriteLine($"Cavab: {result}");
                     break;
+                default:
+                    Console.WriteLine("Duzgun daxil edin");
+                    break;
             }
         }
     }
